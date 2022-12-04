@@ -1,6 +1,6 @@
 package com.example.msscbrewery.service;
 
-import com.example.msscbrewery.model.BeerDTO;
+import com.example.msscbrewery.dto.BeerDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;

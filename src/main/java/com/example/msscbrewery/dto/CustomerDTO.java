@@ -1,4 +1,4 @@
-package com.example.msscbrewery.model;
+package com.example.msscbrewery.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,9 +11,8 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class BeerDTO {
+public class CustomerDTO {
+
     private UUID id;
-    private String beerName;
-    private String beerStyle;
-    private Long upc;
+    private String name;
 }

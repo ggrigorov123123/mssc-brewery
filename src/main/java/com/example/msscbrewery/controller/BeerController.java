@@ -1,6 +1,6 @@
 package com.example.msscbrewery.controller;
 
-import com.example.msscbrewery.model.BeerDTO;
+import com.example.msscbrewery.dto.BeerDTO;
 import com.example.msscbrewery.service.BeerService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
